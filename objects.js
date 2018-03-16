@@ -4,9 +4,9 @@ var playlist =
   ericC: 'my Heart goes on'
 }
 
-function updatePlaylist(playlistA, artistName, song)
+function updatePlaylist(playlistA, name, song)
 {
-  playlistA.artistName = song;
+  playlistA.name = song;
   return playlistA;
 }
 
