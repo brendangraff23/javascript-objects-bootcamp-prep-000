@@ -1,7 +1,7 @@
 var playlist =
 {
-  joeG = "blues a\'comin",
-  ericC = "my Heart goes on"
+  joeG = 'blues comin',
+  ericC = 'my Heart goes on'
 }
 
 function updatePlaylist(playlistA, artistName, song)
