@@ -12,7 +12,7 @@ function updatePlaylist(playlistA, artistName, song)
 
 function removeFromPlaylist(playlistA, artistName)
 {
-  delete playlistA.artistName;
+  delete playlistA[artistName];
   return playlistA;
 }
 
